@@ -1,6 +1,8 @@
 # PdPG
 Pure Data implementation of Curtis Roads' Pulsar Generator
 
+<img width="1000" alt="Screenshot 2024-06-06 at 23 50 51" src="https://github.com/whosebodyisthis/PdPG/assets/133358060/01fd66d3-3272-434f-8f62-c0bd4c3d5547">
+
 # Dependencies:
 Tested on Pd 0.54 (requires the newer file-handling objects)
 
