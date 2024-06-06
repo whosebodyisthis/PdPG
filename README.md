@@ -16,7 +16,7 @@ Turn up the volume and you should hear sound
 Start messing around with sliders
 
 PdPG comes with a folder of wavetables from http://www.adventurekid.se/AKRT,
-but you can point PdPG to any folder of wavetables on your computer. Wavetables
+but you can point PdPG to any folder of wavetables on your computer using the TABLE button. Wavetables
 should be 16/24 bit and all of the same length (these wavetables are all 600 samples long,
 but could be any length).
 
