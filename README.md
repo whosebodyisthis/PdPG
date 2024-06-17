@@ -23,8 +23,4 @@ but could be any length).
 The "net" buttons in the main panel will train a KNN regressor with five random wavetables
 from the collection for "scan" to interpolate across. 
 
-BE WARNED weird things happen when the "net" buttons are pressed whilst the respective 
-"scan" is being modulated from the mod windows. If this weird stuff happens (you'll know 
-it when you see it), just turn off modulation and hit the "net" button again.
-
 Work in progress
