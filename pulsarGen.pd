@@ -291,7 +291,7 @@
 #X connect 116 0 114 0;
 #X connect 118 0 112 0;
 #X restore 1125 32 pd slider_disp;
-#N canvas 655 233 947 683 init 1;
+#N canvas 655 233 947 683 init 0;
 #X obj 21 23 loadbang;
 #X msg 21 44 1;
 #X obj 21 135 loadbang;
@@ -1898,7 +1898,7 @@
 #X restore 19 888 graph;
 #X listbox 79 965 22 0 0 0 - scanBMod2 - 0;
 #X floatatom 222 966 5 0 1 2 mult. scanBMod2MultIn scanBMod2Mult 0;
-#X obj 266 890 vsl 16 55 0.01 10 1 0 scanBModSpd1 scanBModSpd1In spd. 0 -9 1 12 #fcfcfc #000000 #000000 0 1;
+#X obj 266 890 vsl 16 55 0.01 10 1 0 scanBModSpd2 scanBModSpd2In spd. 0 -9 1 12 #fcfcfc #000000 #000000 0 1;
 #X obj 266 965 tgl 16 0 scanBMod2Play scanBMod2PlayIn play 0 -8 1 10 #fcfcfc #000000 #000000 0 1;
 #X obj 19 142 nbx 5 14 0 248 0 0 formMod2Ind formMod2IndIn FILE 0 -8 0 10 #fcfcfc #000000 #000000 0 256;
 #X obj 19 290 nbx 5 14 0 248 0 0 crossMod2Ind crossMod2IndIn FILE 0 -8 0 10 #fcfcfc #000000 #000000 0 256;
@@ -1965,7 +1965,7 @@
 #X restore 19 888 graph;
 #X listbox 79 965 22 0 0 0 - scanBMod3 - 0;
 #X floatatom 222 966 5 0 1 2 mult. scanBMod3MultIn scanBMod3Mult 0;
-#X obj 266 890 vsl 16 55 0.01 10 1 0 scanBModSpd1 scanBModSpd1In spd. 0 -9 1 12 #fcfcfc #000000 #000000 0 1;
+#X obj 266 890 vsl 16 55 0.01 10 1 0 scanBModSpd2 scanBModSpd2In spd. 0 -9 1 12 #fcfcfc #000000 #000000 0 1;
 #X obj 266 965 tgl 16 0 scanBMod3Play scanBMod3PlayIn play 0 -8 1 10 #fcfcfc #000000 #000000 0 1;
 #X obj 19 142 nbx 5 14 0 248 0 0 formMod3Ind formMod3IndIn FILE 0 -8 0 10 #fcfcfc #000000 #000000 0 256;
 #X obj 19 290 nbx 5 14 0 248 0 0 crossMod3Ind crossMod3IndIn FILE 0 -8 0 10 #fcfcfc #000000 #000000 0 256;
