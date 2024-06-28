@@ -1733,7 +1733,7 @@
 #X obj 1296 131 random-tables;
 #X obj 1252 723 catch~ \$0outL;
 #X obj 1343 723 catch~ \$0outR;
-#X obj 35 814 hsl 195 18 1 18 0 0 drive driveIn drive:\ 1 10 9 1 12 #fcfcfc #000000 #000000 0 1;
+#X obj 35 814 hsl 195 18 1 18 0 0 drive driveIn drive:\ 4.329 10 9 1 12 #fcfcfc #000000 #000000 0 1;
 #X obj 1252 809 fexpr~ tanh($x1*$f3) \; tanh($x2*$f3);
 #X obj 1468 722 r drive;
 #X obj 1295 56 network 1 5;
@@ -1965,7 +1965,7 @@
 #X restore 19 888 graph;
 #X listbox 79 965 22 0 0 0 - scanBMod3 - 0;
 #X floatatom 222 966 5 0 1 2 mult. scanBMod3MultIn scanBMod3Mult 0;
-#X obj 266 890 vsl 16 55 0.01 10 1 0 scanBModSpd2 scanBModSpd2In spd. 0 -9 1 12 #fcfcfc #000000 #000000 0 1;
+#X obj 266 890 vsl 16 55 0.01 10 1 0 scanBModSpd3 scanBModSpd3In spd. 0 -9 1 12 #fcfcfc #000000 #000000 0 1;
 #X obj 266 965 tgl 16 0 scanBMod3Play scanBMod3PlayIn play 0 -8 1 10 #fcfcfc #000000 #000000 0 1;
 #X obj 19 142 nbx 5 14 0 248 0 0 formMod3Ind formMod3IndIn FILE 0 -8 0 10 #fcfcfc #000000 #000000 0 256;
 #X obj 19 290 nbx 5 14 0 248 0 0 crossMod3Ind crossMod3IndIn FILE 0 -8 0 10 #fcfcfc #000000 #000000 0 256;
