@@ -9,6 +9,8 @@ Tested on Pd 0.54 (requires the newer file-handling objects)
 FluCoMa for Pd (https://learn.flucoma.org/installation/pd/ for installation instructions)
 
 # Getting Started
+Please use the latest Release .zip. One is optimised for Pd Vanilla UI, the other for PlugData's UI.
+
 Open "_PdPG_Main.pd"
 
 Turn up the volume and you should hear sound
