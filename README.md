@@ -22,6 +22,8 @@ Should look like the screenshot below.
 
 Close then re-open Pure Data.
 
+Switch on DSP via the Pure Data post-window.
+
 Open "_PdPG_Main.pd". 
 
 Turn up the volume and you should hear sound.
